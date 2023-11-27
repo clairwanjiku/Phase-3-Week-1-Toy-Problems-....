@@ -6,8 +6,6 @@ def two_positive(a, b, c):
     return positives == 2
 
 # example
-
-print(two_positive(2, 4, -3))    
-print(two_positive(-4, 6, 8))    
+   
 print(two_positive(4, -6, 9))    
 print(two_positive(-4, 6, 0))   

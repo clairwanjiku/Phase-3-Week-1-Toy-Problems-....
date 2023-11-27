@@ -1,4 +1,4 @@
-def convert_to_24_hour(hour, minute, period):
+def converter_to_24_hour(hour, minute, period):
     # Check if the period is "am"
     if period == "am":
         # If it's 12 am, convert hour to 0
@@ -19,5 +19,5 @@ def convert_to_24_hour(hour, minute, period):
 
 
 # example
-print(convert_to_24_hour(8, 30, "am"))  # Output: 0830
-print(convert_to_24_hour(8, 30, "pm"))  # Output: 2030
+print(converter_to_24_hour(8, 30, "am"))  # Output: 0830
+print(converter_to_24_hour(8, 30, "pm"))  # Output: 2030
