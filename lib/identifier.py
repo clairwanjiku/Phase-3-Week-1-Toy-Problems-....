@@ -1,4 +1,4 @@
-def exactly_two_positive(a, b, c):
+def two_positive(a, b, c):
     # Count the number of positive integers
     positives = sum(x > 0 for x in [a, b, c])
 
@@ -7,7 +7,7 @@ def exactly_two_positive(a, b, c):
 
 # example
 
-print(exactly_two_positive(2, 4, -3))    # Output: True
-print(exactly_two_positive(-4, 6, 8))    # Output: True
-print(exactly_two_positive(4, -6, 9))    # Output: True
-print(exactly_two_positive(-4, 6, 0))    # Output: False
+print(two_positive(2, 4, -3))    
+print(two_positive(-4, 6, 8))    
+print(two_positive(4, -6, 9))    
+print(two_positive(-4, 6, 0))   
